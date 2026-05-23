@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "cd pharma && npm install",
+  "buildCommand": "cd pharma && npm run build",
+  "outputDirectory": "pharma/dist"
+}
