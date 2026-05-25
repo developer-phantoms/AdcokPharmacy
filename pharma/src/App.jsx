@@ -910,8 +910,8 @@ function App() {
                   return (
                     <>
                       <Reveal animation="reveal-left">
-                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-navy mb-8 leading-[1.2]">
-                          {data.title.split(' ').map((word, i) => i === 1 || i === 3 ? <span key={i} className="italic text-primary block">{word} </span> : word + ' ')}
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-sans font-bold text-navy mb-8 leading-[1.2]">
+                          {data.title.split(' ').map((word, i) => i === 1 || i === 3 ? <span key={i} className="font-serif italic text-primary block">{word} </span> : word + ' ')}
                         </h3>
                         <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-10 font-medium max-w-2xl">
                           {data.desc}
